@@ -1,0 +1,99 @@
+{
+    "pet_stages": {
+        "egg": {
+            "name": "Ovo Misterioso",
+            "xp_required": 0,
+            "knowledge_threshold": 0
+        },
+        "iguana": {
+            "name": "Iguana Iniciante",
+            "xp_required": 100,
+            "knowledge_threshold": 20
+        },
+        "carnotaur": {
+            "name": "Carnotauro do Código",
+            "xp_required": 300,
+            "knowledge_threshold": 50
+        },
+        "giant_lizard": {
+            "name": "Lagarto Gigante",
+            "xp_required": 600,
+            "knowledge_threshold": 75,
+            "powers": [
+                "raio_de_luz",
+                "rugido",
+                "danca",
+                "voo"
+            ]
+        },
+        "megazord": {
+            "name": "Megazord Dragão Binário",
+            "xp_required": 1000,
+            "knowledge_threshold": 95
+        }
+    },
+    "question_bank": {
+        "daily": [
+            {
+                "topic": "Fundamentos de Machine Learning",
+                "questions": [
+                    {
+                        "question": "Quais são os três tipos principais de aprendizado de máquina?",
+                        "answer": "Supervisionado, não supervisionado e por reforço",
+                        "points": 10
+                    },
+                    {
+                        "question": "Como o reconhecimento de padrões se relaciona com Machine Learning?",
+                        "answer": "O Machine Learning é baseado no reconhecimento de padrões nos dados, sendo fundamental mesmo em deep learning e redes neurais",
+                        "points": 10
+                    }
+                ]
+            },
+            {
+                "topic": "Inteligência Artificial Geral",
+                "questions": [
+                    {
+                        "question": "Qual a diferença entre IA fraca e IA forte?",
+                        "answer": "IA fraca é eficaz em tarefas específicas, enquanto IA forte (ainda não alcançada) seria capaz de realizar qualquer tarefa intelectual humana",
+                        "points": 10
+                    }
+                ]
+            }
+        ],
+        "weekly": [
+            {
+                "topic": "Avaliação Semanal 1",
+                "questions": [
+                    {
+                        "question": "Explique a diferença entre programação tradicional e IA, incluindo exemplos",
+                        "answer": "Programação tradicional usa dados e regras explícitas, enquanto IA aprende padrões sem regras pré-definidas. Exemplo: filtro de spam aprende padrões vs regras manually programadas",
+                        "points": 25
+                    },
+                    {
+                        "question": "Descreva o processo de tokenização e sua importância em IA",
+                        "answer": "Tokenização é o processo de converter texto em unidades menores (tokens) para processamento. É fundamental para NLP, reconhecimento de imagem e áudio",
+                        "points": 25
+                    }
+                ]
+            }
+        ]
+    },
+    "scoring_system": {
+        "daily_quiz": {
+            "base_points": 10,
+            "bonus_streak": 5,
+            "minimum_pass": 7
+        },
+        "weekly_quiz": {
+            "base_points": 25,
+            "bonus_complete": 15,
+            "minimum_pass": 20
+        }
+    },
+    "health_system": {
+        "max_health": 100,
+        "daily_decay": 15,
+        "quiz_healing": 25,
+        "critical_threshold": 30
+    }
+}
