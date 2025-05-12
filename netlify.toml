@@ -1,7 +1,7 @@
 [build]
   base    = "react_template"
   command = "npm run build"
-  publish = "react_template/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"
