@@ -1,15 +1,23 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Virtus Pet: DataGuard - Virtual Study Pet</title>
 </head>
-
 <body>
+  <!-- FILTRO METÁLICO -->
+  <svg style="position:absolute; width:0; height:0; visibility:hidden;" xmlns="http://www.w3.org/2000/svg">
+    <filter id="metalFilter">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="2" specularConstant="1" specularExponent="20" lighting-color="#ffffff" result="specOut">
+        <fePointLight x="50" y="50" z="200"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceGraphic" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </svg>
+
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
-
 </html>

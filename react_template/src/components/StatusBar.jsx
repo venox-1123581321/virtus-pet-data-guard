@@ -1,37 +1,31 @@
-// src/components/StatusBar.jsx
 import React from 'react';
 
 const StatusBar = ({ health, knowledge }) => {
   return (
     <div className="mb-6 space-y-4">
-      <div>
-        <div className="flex justify-between mb-1">
-          <span>Health</span>
-          <span>{health}%</span>
-        </div>
-        <div className="w-full bg-gray-700 rounded-full h-4">
+      {/* Health */}
+      <div className="flex justify-between mb-1">
+        <span className="text-sm">Saúde</span>
+        <span className="text-sm">{health}%</span>
+      </div>
+      <div className={health < 20 ? 'health-low' : ''}>
+        <div className="w-full h-4 bg-black pixel-border">
           <div
-            className={`h-4 rounded-full ${
-              health > 70 ? 'bg-green-500' :
-              health > 30 ? 'bg-yellow-500' :
-              'bg-red-500'
-            }`}
+            className="h-4 bg-virtus-green"
             style={{ width: `${health}%` }}
           />
         </div>
       </div>
-
-      <div>
-        <div className="flex justify-between mb-1">
-          <span>Knowledge</span>
-          <span>{knowledge}/1000</span>
-        </div>
-        <div className="w-full bg-gray-700 rounded-full h-4">
-          <div
-            className="h-4 bg-blue-500 rounded-full"
-            style={{ width: `${(knowledge/1000)*100}%` }}
-          />
-        </div>
+      {/* Knowledge */}
+      <div className="flex justify-between mt-4 mb-1">
+        <span className="text-sm">Conhecimento</span>
+        <span className="text-sm">{knowledge} / 100</span>
+      </div>
+      <div className="w-full h-4 bg-black pixel-border">
+        <div
+          className="h-4 bg-virtus-green"
+          style={{ width: `${(knowledge / 100) * 100}%` }}
+        />
       </div>
     </div>
   );

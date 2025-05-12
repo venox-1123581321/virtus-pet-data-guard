@@ -1,25 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', monospace;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+/* Pixel border padrão na cor virtus-cyan */
+.pixel-border {
+  border: 3px solid #2ACCE0;
+  border-radius: 0;
 }
 
-::-webkit-scrollbar-track {
-  background-color: transparent;
+/* Banner de mensagem motivacional */
+.message-banner {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background-color: rgba(44, 204, 224, 0.9);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: 2px solid #2ACCE0;
+  border-radius: 0;
+  animation: fadeOutBanner 5s ease-in-out forwards;
 }
 
-::-webkit-scrollbar-thumb {
-  border-radius: 25px;
-  transition: all 0.3s;
-  background-color: rgba(106, 115, 125, 0.2);
-  &:hover {
-    background-color: rgba(106, 115, 125, 0.27);
-  }
+/* PopUp styling and animation */
+.popup {
+  pointer-events: none;
 }
 
-::-webkit-scrollbar-corner {
-  display: none;
+@keyframes fadeUp {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-20px); }
+}
+.animate-fadeUp {
+  animation: fadeUp 1s forwards;
+}
+
+/* Background pixel pattern behind pet */
+.bg-pixel-pattern {
+  background: url('/assets/images/grid-pattern.png') #0F1424;
+  background-repeat: repeat;
+  animation: bgShift 20s linear infinite;
+}
+
+/* Event cutscene animation */
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fadeInOut {
+  animation: fadeInOut 3s ease-in-out forwards;
+}
+
+/* Background shift keyframes */
+@keyframes bgShift {
+  0% { background-position: 0 0; }
+  100% { background-position: 100px 100px; }
+}
+
+/* Fade out banner keyframes */
+@keyframes fadeOutBanner {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* === Micro-interações === */
+
+/* 1) Hover nos botões */
+button {
+  transition: transform .1s ease;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+/* 2) Pop-up pulse */
+@keyframes pulse {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+.pop-up {
+  animation: pulse .5s ease;
+}
+
+/* 3) Health-bar shake quando saúde <20% */
+@keyframes shake {
+  0%,100% { transform: translateX(0); }
+  20%,60% { transform: translateX(-4px); }
+  40%,80% { transform: translateX(4px); }
+}
+.health-low .pixel-border {
+  animation: shake .3s ease-in-out 0s 2;
+}
+
+
+/* Dynamic background per stage */
+.bg-ovo { background: url('/assets/images/grid-pattern-ovo.png') #0F1424; }
+.bg-iguana { background: url('/assets/images/grid-pattern-iguana.png') #0F1424; }
+.bg-iguana-maior { background: url('/assets/images/grid-pattern-iguana-maior.png') #0F1424; }
+.bg-carnotauro { background: url('/assets/images/grid-pattern-carnotauro.png') #0F1424; }
+.bg-trex { background: url('/assets/images/grid-pattern-trex.png') #0F1424; }
+.bg-petzilla { background: url('/assets/images/grid-pattern-petzilla.png') #0F1424; }
+.bg-dragon { background: url('/assets/images/grid-pattern-dragon.png') #0F1424; }
+.bg-transformer { background: url('/assets/images/grid-pattern-transformer.png') #0F1424; }
+
+.bg-ovo, .bg-iguana, .bg-iguana-maior, .bg-carnotauro, .bg-trex, .bg-petzilla, .bg-dragon, .bg-transformer {
+  background-repeat: repeat;
+  animation: bgShift 20s linear infinite;
+}
+
+
+/* === Efeito Metálico Estático via Gradient para Títulos === */
+.title-metal-3 {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #e5e5e5 25%,
+    #cccccc 50%,
+    #e5e5e5 75%,
+    #ffffff 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }

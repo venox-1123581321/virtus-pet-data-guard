@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Qual o principal objetivo do Aprendizado Não-Supervisionado?",
+    "options": [
+      "Analisar dados com respostas prontas para prever resultados futuros.",
+      "Classificar dados em categorias pré-definidas.",
+      "Descobrir padrões ou agrupamentos em dados sem respostas prontas.",
+      "Usar uma pequena quantidade de dados rotulados para aprender.",
+      "Desenhar uma linha reta para adivinhar valores futuros."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 2,
+    "question": "No Aprendizado Não-Supervisionado, a IA percebe o quê entre os dados?",
+    "options": [
+      "Respostas certas pré-existentes.",
+      "Similaridades, criando categorias automaticamente.",
+      "Relações causa-efeito explicitadas.",
+      "Apenas dados rotulados.",
+      "Diferenças extremas para separação."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "O que uma IA tenta fazer no Aprendizado Não-Supervisionado com dados sem respostas prontas?",
+    "options": [
+      "Rotular todos os dados manualmente.",
+      "Obter respostas certas para cada dado.",
+      "Descobrir padrões ou agrupamentos sozinha.",
+      "Apenas ignorar os dados.",
+      "Desenhar gráficos de regressão."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 4,
+    "question": "O que é um \"prompt\" em Inteligência Artificial, de forma simples?",
+    "options": [
+      "Um resultado gerado pela IA.",
+      "Uma resposta a uma pergunta.",
+      "Uma instrução ou pergunta que você faz para a IA para obter uma resposta.",
+      "Uma base de dados para treinamento.",
+      "Um tipo de algoritmo de Machine Learning."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 5,
+    "question": "Em Processamento de Linguagem Natural (PNL), \"tokens\" são unidades básicas de quê?",
+    "options": [
+      "Palavras completas apenas.",
+      "Frases inteiras.",
+      "Texto que uma IA entende e processa.",
+      "Imagens digitais.",
+      "Arquivos de áudio."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 6,
+    "question": "A regressão linear é comparada a qual ação em uma analogia simples?",
+    "options": [
+      "Misturar diferentes cores.",
+      "Organizar dados em tabelas.",
+      "Desenhar uma linha reta que passa perto de vários pontos.",
+      "Separar objetos por cor.",
+      "Adicionar rótulos a imagens."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 7,
+    "question": "Qual tipo de Machine Learning combina dados rotulados e não rotulados?",
+    "options": [
+      "Aprendizado Supervisionado.",
+      "Aprendizado Não-Supervisionado.",
+      "Aprendizado Semi-Supervisionado.",
+      "Deep Learning.",
+      "Regressão Linear."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 8,
+    "question": "Qual a principal razão para usar Aprendizado Semi-Supervisionado mencionada nas fontes?",
+    "options": [
+      "Quando todos os dados são rotulados.",
+      "Quando rotular dados é caro ou demorado.",
+      "Quando não há dados disponíveis.",
+      "Quando a IA precisa de pouquíssimos dados.",
+      "Quando apenas dados não rotulados existem."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 9,
+    "question": "O que é Engenharia de Prompt?",
+    "options": [
+      "O processo de treinar modelos de IA.",
+      "A habilidade de formular perguntas e comandos estratégicos para obter melhores resultados da IA.",
+      "A criação de novos algoritmos de IA.",
+      "A análise de grandes volumes de dados.",
+      "O desenvolvimento de hardware para IA."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "O que o Aprendizado Semi-Supervisionado usa para aprender?",
+    "options": [
+      "Apenas uma grande parte de dados sem respostas.",
+      "Apenas uma pequena parte de dados com respostas certas.",
+      "Uma pequena parte de dados com respostas certas e uma grande parte sem respostas.",
+      "Somente dados textuais.",
+      "Somente dados numéricos."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 11,
+    "question": "De acordo com as fontes, o que um algoritmo de Machine Learning deve ser capaz de fazer?",
+    "options": [
+      "Adivinhar o futuro com 100% de certeza.",
+      "Ignorar todos os dados irrelevantes.",
+      "Aprender bem os padrões nos dados de treino e generalizar para novos dados.",
+      "Apenas memorizar os dados de treino.",
+      "Criar overfitting e underfitting intencionalmente."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 12,
+    "question": "O que significa \"generalizar para novos dados\" no contexto do Machine Learning?",
+    "options": [
+      "Usar apenas os dados de treino para prever.",
+      "Aplicar o aprendizado de dados conhecidos a dados nunca vistos.",
+      "Ignorar completamente os novos dados.",
+      "Pedir mais dados de treino rotulados.",
+      "Mudar o algoritmo para cada novo dado."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 13,
+    "question": "Qual técnica de Machine Learning é comparada a \"desenhar uma linha reta\" para adivinhar valores?",
+    "options": [
+      "Classificação.",
+      "Agrupamento (Clustering).",
+      "Regressão Linear.",
+      "Aprendizado Não-Supervisionado.",
+      "Deep Learning."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 14,
+    "question": "Qual é a diferença fundamental entre um prompt em IA generativa e uma pesquisa na internet?",
+    "options": [
+      "A pesquisa retorna respostas novas e estruturadas, enquanto o prompt retorna links.",
+      "O prompt retorna links e fontes externas, enquanto a pesquisa gera respostas novas.",
+      "O prompt gera respostas novas e estruturadas diretamente, enquanto a pesquisa retorna links e fontes externas.",
+      "A pesquisa usa linguagem natural, enquanto o prompt usa palavras-chave.",
+      "Não há diferença significativa."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 15,
+    "question": "Por que a Engenharia de Prompt é importante?",
+    "options": [
+      "Porque a IA só entende prompts simples.",
+      "Porque a qualidade da resposta da IA depende da clareza e detalhamento da instrução.",
+      "Porque impede a IA de inventar respostas.",
+      "Porque elimina a necessidade de revisar a saída da IA.",
+      "Porque limita o potencial da IA."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 16,
+    "question": "Qual o principal motivo pelo qual o Deep Learning requer grandes volumes de dados?",
+    "options": [
+      "Para tornar o modelo menos complexo.",
+      "Para diminuir o número de camadas.",
+      "Para aprender com precisão e evitar overfitting, pois tem muitos parâmetros para treinar.",
+      "Para reduzir o número de parâmetros.",
+      "Para funcionar sem redes neurais."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 17,
+    "question": "Em que contexto o Deep Learning é amplamente usado, segundo as fontes?",
+    "options": [
+      "Em tarefas que exigem pouquíssimos dados.",
+      "Em análise de crimes com milhares de ocorrências.",
+      "Em modelos com poucas camadas.",
+      "Em reconhecimento de padrões simples.",
+      "Em tarefas que não requerem precisão."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 18,
+    "question": "Qual é uma das estratégias essenciais para elaborar bons prompts?",
+    "options": [
+      "Usar linguagem técnica e jargões.",
+      "Evitar ser específico para dar liberdade à IA.",
+      "Escrever instruções claras.",
+      "Fazer prompts muito extensos.",
+      "Usar múltiplas instruções confusas."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 19,
+    "question": "Como você pode melhorar a resposta da IA a um prompt, segundo as fontes?",
+    "options": [
+      "Aceitando a primeira resposta como final.",
+      "Refinando o prompt com base nos resultados obtidos (processo iterativo).",
+      "Tornando o prompt mais vago.",
+      "Ignorando as sugestões da IA.",
+      "Usando prompts mais curtos, mesmo para tarefas complexas."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 20,
+    "question": "Qual é uma das dicas gerais para escrever prompts eficazes?",
+    "options": [
+      "Ser prolixo e complexo.",
+      "Definir claramente o objetivo.",
+      "Evitar usar terminologia específica.",
+      "Não revisar a resposta da IA.",
+      "Sobrecargar com excesso de informações irrelevantes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 21,
+    "question": "O que as LLMs (Large Language Models) processam usando tokens?",
+    "options": [
+      "Apenas texto escrito.",
+      "Texto, áudios e imagens (convertidos em tokens).",
+      "Apenas palavras inteiras reconhecidas.",
+      "Somente dados numéricos.",
+      "Ideias abstratas diretamente."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 22,
+    "question": "Qual é a unidade básica de texto que uma IA entende e processa?",
+    "options": [
+      "Palavras-chave.",
+      "Frases.",
+      "Tokens.",
+      "Parágrafos.",
+      "Conceitos."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 23,
+    "question": "O que uma \"janela de contexto\" (context window) representa para um modelo de linguagem?",
+    "options": [
+      "O número de respostas que ele pode gerar.",
+      "O limite de informação que ele consegue \"lembrar\" e processar ao mesmo tempo.",
+      "A velocidade de processamento.",
+      "O número de usuários que ele pode atender simultaneamente.",
+      "O tamanho do modelo em gigabytes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 24,
+    "question": "Por que é importante ser específico ao elaborar um prompt?",
+    "options": [
+      "Para limitar a criatividade da IA.",
+      "Para que a IA entenda melhor o que você quer que ela faça.",
+      "Para aumentar a ambiguidade da solicitação.",
+      "Para garantir que a resposta seja sempre curta.",
+      "Para evitar que a IA use linguagem natural."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 25,
+    "question": "Qual é um dos elementos de uma boa estrutura de prompt de acordo com o modelo de 4 elementos?",
+    "options": [
+      "Revisão.",
+      "Verificação.",
+      "Persona (ou Papel).",
+      "Invenção.",
+      "Moderação."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 26,
+    "question": "Em um prompt, o que o elemento \"Tarefa\" (Task) geralmente representa?",
+    "options": [
+      "Quem a IA deve ser.",
+      "O formato da saída desejada.",
+      "Uma ação, um verbo, como: faça, resuma, crie.",
+      "O tema geral da conversa.",
+      "O limite de tokens."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 27,
+    "question": "O que o elemento \"Formato\" (Format) em um prompt especifica?",
+    "options": [
+      "O nível de dificuldade da tarefa.",
+      "A quantidade de dados de entrada.",
+      "O formato desejado para a resposta (lista, tabela, narrativa, etc.).",
+      "A persona que a IA deve adotar.",
+      "O contexto da solicitação."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 28,
+    "question": "Um prompt detalhado para explicar sustentabilidade para estudantes do ensino médio inclui o quê, além da simples pergunta \"Explique o que é sustentabilidade\"?",
+    "options": [
+      "Apenas a definição.",
+      "Linguagem acessível, exemplos do dia a dia e importância para o planeta.",
+      "Somente dados técnicos e científicos.",
+      "Um limite de tokens muito baixo.",
+      "Solicitações negativas (o que não explicar)."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 29,
+    "question": "Qual a sugestão para lidar com tarefas complexas ao criar prompts?",
+    "options": [
+      "Colocar todas as instruções em um único prompt longo.",
+      "Dividir a tarefa complexa em subtarefas mais simples.",
+      "Usar linguagem vaga.",
+      "Aumentar a janela de contexto ao máximo.",
+      "Ignorar partes da tarefa."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 30,
+    "question": "O que é recomendado fazer com a resposta gerada pela IA antes de utilizá-la, especialmente em contextos profissionais ou sensíveis?",
+    "options": [
+      "Assumir que está sempre correta.",
+      "Revisar para garantir clareza, relevância e precisão.",
+      "Compartilhar imediatamente com outras pessoas.",
+      "Deletar a resposta e tentar novamente.",
+      "Usar sem qualquer verificação."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 31,
+    "question": "Qual framework de prompt é mencionado utilizando a sigla PTCF?",
+    "options": [
+      "Papel, Tarefa, Formato, Contexto.",
+      "Prompt, Tarefa, Contexto, Formato.",
+      "Problema, Tarefa, Contexto, Finalidade.",
+      "Persona, Tom, Conteúdo, Finalidade.",
+      "Propósito, Tarefa, Conteúdo, Formato."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 32,
+    "question": "Qual framework de prompt utiliza as siglas RTF?",
+    "options": [
+      "Resultado, Tarefa, Formato.",
+      "Raciocínio, Texto, Finalização.",
+      "Relevância, Tema, Fonte.",
+      "Role (Papel), Task (Tarefa), Format (Formato).",
+      "Regra, Texto, Função."
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 33,
+    "question": "O que a estrutura de prompt Chain-of-Thought incentiva o modelo a fazer?",
+    "options": [
+      "Dar a resposta final imediatamente.",
+      "Detalhar seu processo de pensamento passo a passo antes de chegar à resposta.",
+      "Usar apenas exemplos.",
+      "Gerar várias respostas e escolher a mais consistente.",
+      "Buscar informações externas."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 34,
+    "question": "Em que tipo de tarefa a estrutura Chain-of-Thought é particularmente útil?",
+    "options": [
+      "Tarefas simples de resumo.",
+      "Tarefas de raciocínio complexas.",
+      "Geração de texto criativo.",
+      "Tradução automática.",
+      "Análise de sentimento."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 35,
+    "question": "O que a técnica Prompt Chaining envolve?",
+    "options": [
+      "Usar apenas um prompt muito longo.",
+      "Dividir uma tarefa complexa em prompts menores e encadear as saídas.",
+      "Repetir o mesmo prompt várias vezes.",
+      "Adicionar exemplos em cadeia.",
+      "Usar apenas instruções negativas."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 36,
+    "question": "Qual técnica de prompt pede para a IA explorar diversos raciocínios paralelos, criando uma árvore de pensamentos?",
+    "options": [
+      "Chain-of-Thought.",
+      "Prompt Chaining.",
+      "Tree of Thoughts.",
+      "Self-Consistency.",
+      "Zero-Shot Prompting."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 37,
+    "question": "O que a técnica Tree of Thoughts busca no final?",
+    "options": [
+      "Múltiplas respostas inconsistentes.",
+      "A exploração de um único caminho de raciocínio.",
+      "A convergência para uma resposta única a partir de explorações paralelas.",
+      "Apenas a lista de possíveis causas.",
+      "A geração de código de programação."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 38,
+    "question": "Por que usar \"não\" em prompts é geralmente problemático para LLMs?",
+    "options": [
+      "Porque as LLMs não entendem negações.",
+      "Porque pode inadvertidamente reforçar o comportamento que você está tentando evitar ao representar a ideia negativa.",
+      "Porque torna o prompt muito conciso.",
+      "Porque só funciona com linguagem técnica.",
+      "Porque impede o uso de marcadores."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 39,
+    "question": "Qual abordagem é mais eficaz do que usar \"não\" em prompts?",
+    "options": [
+      "Usar prompts mais longos com a palavra \"não\" repetida.",
+      "Fornecer instruções positivas e específicas sobre o que fazer.",
+      "Usar linguagem vaga para evitar a necessidade de negação.",
+      "Depender apenas de exemplos (few-shot).",
+      "Limitar a janela de contexto."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 40,
+    "question": "O que é Self-Consistency?",
+    "options": [
+      "Uma técnica que gera múltiplas respostas para o mesmo prompt e seleciona a mais consistente.",
+      "Um método que busca informações em bases de dados externas.",
+      "Uma forma de dividir tarefas complexas.",
+      "Um parâmetro de saída para controlar o tom.",
+      "Uma estratégia para usar linguagem natural."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 41,
+    "question": "Como os tokens se relacionam com vetores no processamento da IA?",
+    "options": [
+      "Tokens são usados apenas para contar o tamanho do texto, vetores são usados para processamento.",
+      "Cada token processado pelo modelo é transformado em um vetor para ser utilizado nos cálculos.",
+      "Vetores definem o tamanho da janela de contexto para os tokens.",
+      "Tokens são usados para áudio, vetores são usados para texto.",
+      "Não há relação entre tokens e vetores."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 42,
+    "question": "O que a janela de contexto define em relação aos tokens e vetores?",
+    "options": [
+      "O número de palavras no vocabulário do modelo.",
+      "Quantos tokens (e consequentemente, quantos vetores) podem ser considerados de uma vez.",
+      "A distância entre vetores com significados diferentes.",
+      "A precisão dos cálculos de probabilidade.",
+      "A velocidade com que os tokens são gerados."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 43,
+    "question": "Na inferência, o que o modelo utiliza para calcular probabilidades e determinar o próximo token a ser gerado?",
+    "options": [
+      "Apenas a primeira palavra do prompt.",
+      "O número total de tokens na entrada.",
+      "Os vetores gerados a partir dos tokens na janela de contexto.",
+      "Apenas as instruções negativas no prompt.",
+      "Ferramentas externas e bancos de dados."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 44,
+    "question": "O que significa \"dar tempo ao modelo para 'pensar'\"?",
+    "options": [
+      "Pausar o relógio real durante o processamento.",
+      "Incentivar uma abordagem mais estruturada e reflexiva, detalhando passos do raciocínio ou usando monólogos internos.",
+      "Forçar uma resposta instantânea para aumentar a eficiência.",
+      "Limitar a janela de contexto para acelerar o processo.",
+      "Desconectar a IA temporariamente."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 45,
+    "question": "Qual o objetivo de usar \"monólogos internos ou sequência de perguntas\" para dar tempo ao modelo para pensar?",
+    "options": [
+      "Confundir o modelo.",
+      "Explorar possibilidades antes de concluir e evitar respostas impulsivas.",
+      "Aumentar a complexidade do prompt desnecessariamente.",
+      "Diminuir a qualidade da resposta.",
+      "Reduzir o número de tokens processados."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 46,
+    "question": "O que é Iterative Prompting?",
+    "options": [
+      "Dar o prompt uma única vez e esperar a resposta final.",
+      "Refinar o prompt com base nos resultados obtidos, guiando a IA gradualmente.",
+      "Usar vários prompts independentes para a mesma tarefa.",
+      "Pedir para a IA gerar um prompt.",
+      "Usar um prompt que contém um loop de repetição."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 47,
+    "question": "O que é Retrieval Augmented Generation (RAG)?",
+    "options": [
+      "Uma técnica para gerar imagens a partir de texto.",
+      "Um método onde o modelo busca informações pertinentes em uma base de dados externa para gerar a resposta.",
+      "Uma forma de treinar modelos com reforço.",
+      "Uma estrutura de prompt para raciocínio passo a passo.",
+      "Um parâmetro de saída para controlar o tom."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 48,
+    "question": "Qual é o benefício de usar RAG?",
+    "options": [
+      "Limitar o conhecimento do modelo à base de dados interna.",
+      "Gerar respostas menos informativas.",
+      "Gerar uma resposta mais informativa e contextualmente apropriada para o prompt.",
+      "Aumentar a ambiguidade da resposta.",
+      "Diminuir a dependência de dados de treinamento."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 49,
+    "question": "O que é In-context learning?",
+    "options": [
+      "Treinar a IA explicitamente em uma nova tarefa.",
+      "Incluir informações de contexto diretamente no prompt para treinar a IA a responder melhor.",
+      "Usar apenas exemplos sem nenhum contexto.",
+      "Pedir à IA para aprender com a conversa anterior.",
+      "Ajustar os parâmetros internos do modelo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 50,
+    "question": "O que são marcadores (como <tag>, {}, [], \"\") úteis para a IA?",
+    "options": [
+      "Para tornar o prompt mais complicado para o usuário.",
+      "Para ajudar a IA a compreender melhor a estrutura do prompt e interpretar corretamente as instruções.",
+      "Para aumentar a janela de contexto.",
+      "Para diminuir o número de tokens.",
+      "Para ativar o modo de invenção da IA."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 51,
+    "question": "O que o parâmetro de saída \"Tom\" em um prompt define?",
+    "options": [
+      "O comprimento da resposta.",
+      "O estilo de escrita (narrativo, técnico, etc.).",
+      "A \"voz\" ou \"atitude\" que o texto gerado pela IA deve transmitir (formal, casual, etc.).",
+      "O objetivo principal da resposta.",
+      "O nível de detalhe."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 52,
+    "question": "O que o parâmetro de saída \"Estilo\" em um prompt define?",
+    "options": [
+      "A emoção expressa na resposta.",
+      "A maneira como o conteúdo é apresentado, incluindo escolha de palavras, ritmo e estrutura de frases.",
+      "A formalidade da resposta.",
+      "O número de parágrafos.",
+      "O nível de conhecimento técnico."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 53,
+    "question": "Qual parâmetro de saída se refere ao comprimento do texto gerado?",
+    "options": [
+      "Tom.",
+      "Estilo.",
+      "Extensão.",
+      "Objetivo.",
+      "Nível de Detalhe."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 54,
+    "question": "O que o parâmetro de saída \"Objetivo (ou Propósito)\" em um prompt busca definir?",
+    "options": [
+      "A velocidade de geração da resposta.",
+      "A finalidade principal do prompt, o que você deseja alcançar com a resposta gerada.",
+      "A persona da IA.",
+      "O formato da saída.",
+      "A base de dados a ser utilizada."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 55,
+    "question": "O que o parâmetro de saída \"Nível de Detalhe\" indica?",
+    "options": [
+      "A complexidade da linguagem utilizada.",
+      "A profundidade da resposta desejada (resumo breve ou análise aprofundada).",
+      "A quantidade de exemplos fornecidos.",
+      "O número de fontes consultadas.",
+      "A dificuldade de compreensão para o usuário."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 56,
+    "question": "Qual é um erro comum na criação de prompts mencionado nas fontes?",
+    "options": [
+      "Usar linguagem natural.",
+      "Ser específico.",
+      "Prompts vagos.",
+      "Ser conciso.",
+      "Fazer disso uma conversa."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 57,
+    "question": "Outro erro comum na criação de prompts é a \"Falta de especificidade\", como em \"Explique tecnologia\". O que isso causa?",
+    "options": [
+      "Respostas muito específicas e detalhadas.",
+      "A IA não entende bem o que você deseja.",
+      "O uso de linguagem técnica apropriada.",
+      "Respostas sempre no formato de lista.",
+      "Aumento da janela de contexto."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 58,
+    "question": "Por que \"Prompts muito extensos\" ou \"Janelas de contexto muito extensas\" são considerados erros comuns?",
+    "options": [
+      "Porque a IA prefere prompts curtos.",
+      "Porque podem exceder o limite de informação que a IA consegue processar de uma vez.",
+      "Porque tornam a resposta muito curta.",
+      "Porque dificultam o uso de marcadores.",
+      "Porque impedem a IA de usar linguagem natural."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 59,
+    "question": "O que acontece quando LLMs inventam fatos que nunca existiram ou são incorretos?",
+    "options": [
+      "Elas estão demonstrando verdadeira compreensão lógica.",
+      "Elas estão replicando dados de treinamento com perfeição.",
+      "Isso é um problema conhecido, pois operam pela interpretação de padrões estatísticos e não por compreensão humana.",
+      "Elas estão utilizando corretamente a Geração Aumentada por Recuperação (RAG).",
+      "Elas estão limitando sua janela de contexto."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 60,
+    "question": "Qual a recomendação ao lidar com informações sigilosas ao usar o ChatGPT?",
+    "options": [
+      "É seguro colocar dados sigilosos diretamente.",
+      "É seguro, desde que você use prompts complexos.",
+      "Não é seguro; recomenda-se não colocar dados sigilosos.",
+      "É seguro se você usar o formato de tabela.",
+      "É seguro se você usar apenas prompts curtos."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 61,
+    "question": "Segundo as fontes, como os modelos de linguagem operam principalmente?",
+    "options": [
+      "Pela compreensão lógica do conteúdo.",
+      "Pela interpretação de padrões linguísticos e de informação em seu treinamento.",
+      "Pela consulta a bancos de dados externos em tempo real.",
+      "Pela intuição e bom senso.",
+      "Pela simulação de raciocínio humano complexo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 62,
+    "question": "Ao lidar com um prompt que pede múltiplas tarefas relacionadas, qual dica é sugerida?",
+    "options": [
+      "Colocar todas as tarefas em um único prompt longo e complexo.",
+      "Dividir as tarefas em prompts separados.",
+      "Usar linguagem vaga para que a IA decida a ordem.",
+      "Ignorar algumas das tarefas.",
+      "Aumentar a janela de contexto significativamente."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 63,
+    "question": "Por que é recomendado incluir \"restrições\" (como limites de contagem de caracteres ou número de opções) no seu prompt?",
+    "options": [
+      "Para limitar a criatividade da IA.",
+      "Para gerar resultados mais específicos.",
+      "Para aumentar a ambiguidade.",
+      "Para tornar o prompt mais vago.",
+      "Para diminuir a velocidade de resposta."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 64,
+    "question": "Atribuir uma \"função\" ou \"persona\" à IA em um prompt (\"Você é um gerente de RH...\") ajuda em quê?",
+    "options": [
+      "A diminuir o número de tokens.",
+      "A encorajar a criatividade e adaptar a resposta ao contexto.",
+      "A tornar a resposta mais genérica.",
+      "A limitar o escopo do conhecimento da IA.",
+      "A forçar a IA a inventar informações."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 65,
+    "question": "O que significa \"Forneça texto de referência\" como uma estratégia de prompt?",
+    "options": [
+      "Pedir à IA para buscar informações na internet.",
+      "Incluir documentos ou informações para que a IA tenha uma base confiável para buscar informações.",
+      "Apenas mencionar de onde você tirou o prompt.",
+      "Pedir para a IA citar fontes.",
+      "Limitar o conhecimento da IA ao seu treinamento original."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 66,
+    "question": "Por que fornecer texto de referência é particularmente útil quando questionando LLMs sobre doutrinas ou jurisprudências?",
+    "options": [
+      "Porque torna o prompt mais longo.",
+      "Porque ajuda a responder com menos invenções (alucinações).",
+      "Porque a IA não tem conhecimento prévio sobre esses tópicos.",
+      "Porque aumenta a ambiguidade da resposta.",
+      "Porque limita o uso de tokens."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 67,
+    "question": "Como a divisão de tarefas complexas em subtarefas mais simples se assemelha à engenharia de software?",
+    "options": [
+      "Ambas as práticas tentam criar sistemas complexos em uma única etapa.",
+      "Ambas dividem problemas em componentes menores para facilitar o desenvolvimento e o tratamento.",
+      "Ambas evitam o uso de iteração.",
+      "Ambas dependem apenas de instruções negativas.",
+      "Ambas não se beneficiam de feedback iterativo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 68,
+    "question": "Para documentos extensos, qual estratégia é sugerida para manter o contexto enxuto e direcionado?",
+    "options": [
+      "Incluir o documento inteiro na janela de contexto.",
+      "Resumir partes da conversa ou eliminar informações irrelevantes antes de prosseguir.",
+      "Pedir à IA para adivinhar o conteúdo irrelevante.",
+      "Aumentar a janela de contexto infinitamente.",
+      "Usar apenas os primeiros parágrafos do documento."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 69,
+    "question": "O que a abordagem de \"construir resumos incrementais\" envolve para documentos extensos?",
+    "options": [
+      "Resumir o documento inteiro de uma vez.",
+      "Dividir o documento em seções menores, resumir cada uma e depois combinar os resumos.",
+      "Ignorar o documento e pedir um resumo geral.",
+      "Fornecer apenas as palavras-chave para o resumo.",
+      "Usar um prompt negativo (\"Não resuma parágrafo por parágrafo\")."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 70,
+    "question": "O que é a técnica Active-Prompt?",
+    "options": [
+      "Selecionar aleatoriamente exemplos para incluir no prompt.",
+      "Selecionar dinamicamente os exemplos mais informativos com base na incerteza ou dificuldade da tarefa.",
+      "Usar um único exemplo para todas as tarefas.",
+      "Ignorar exemplos e depender do conhecimento prévio.",
+      "Pedir ao usuário para fornecer todos os exemplos."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 71,
+    "question": "Qual a finalidade principal do \"megaprompt\" para Análise de Ocorrências Policiais descrito nas fontes?",
+    "options": [
+      "Apenas gerar relatórios estatísticos.",
+      "Auxiliar oficiais de polícia na análise de ocorrências, identificação de padrões, sugestão de linhas de investigação e elaboração de documentação legal.",
+      "Substituir completamente a investigação humana.",
+      "Fazer a triagem inicial de RIFs.",
+      "Criar escalas de patrulhamento."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 72,
+    "question": "No megaprompt de Análise de Ocorrências, qual persona é sugerida?",
+    "options": [
+      "Um assistente administrativo virtual.",
+      "Um especialista em CEP.",
+      "Um analista de dados especializado em ocorrências policiais, agindo como um experiente Delegado de Polícia.",
+      "Um profissional de RH.",
+      "Um assessor de juiz."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 73,
+    "question": "O que o passo de \"Classificação da Ocorrência com Análise Jurídica Detalhada\" inclui no megaprompt de Análise de Ocorrências?",
+    "options": [
+      "Apenas a identificação dos envolvidos.",
+      "Identificar se os fatos configuram infração penal, tipos penais, ação penal aplicável e urgência das ações.",
+      "Sugerir perguntas para interrogatórios futuros.",
+      "Elaborar relatórios estatísticos.",
+      "Criar mapas de geolocalização."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "question": "Como o megaprompt de Análise de Ocorrências sugere a interação com o usuário após a análise e classificação?",
+    "options": [
+      "Gerando a peça sugerida sem perguntar.",
+      "Indicando a peça sugerida (Portaria, Despacho) e perguntando qual documento o usuário deseja elaborar.",
+      "Apenas fornecendo um resumo da ocorrência.",
+      "Encerrando a interação automaticamente.",
+      "Pedindo mais informações sobre a ocorrência."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 75,
+    "question": "Após a produção de uma Portaria de Instauração de Inquérito Policial, quais tipos de ações o megaprompt sugere ao usuário?",
+    "options": [
+      "Apenas o arquivamento do caso.",
+      "Produzir ofícios para instituições financeiras/telefonia, transformar ocorrência em modelo de depoimento, requisitar laudos.",
+      "Desconsiderar as diligências sugeridas na portaria.",
+      "Reiniciar a análise da ocorrência do zero.",
+      "Mudar a persona da IA."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 76,
+    "question": "Qual é o objetivo do prompt de \"Eficiência Administrativa\" especializado em documentação policial com menu numérico?",
+    "options": [
+      "Criar novos algoritmos de Machine Learning.",
+      "Extrair informações importantes de documentos, verificar pertinência e identificar ações requeridas.",
+      "Gerar relatórios de análise criminal complexa.",
+      "Simular cenários investigativos.",
+      "Analisar dados financeiros."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "question": "Quais formatos de saída são sugeridos para a resposta do prompt de Eficiência Administrativa com menu?",
+    "options": [
+      "Apenas narrativa.",
+      "Resumo, identificação de relevância, explicação detalhada, lista de ações, verificação de tema, urgência, destinatários, sugestão de unidades, prazos, antecedentes, anexos, recomendações, tipo de resposta requerida, consequências, autoridade, sugestão de template.",
+      "Apenas lista de ações e prazos.",
+      "Um único parágrafo sem formatação.",
+      "Tabela comparativa de documentos."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 78,
+    "question": "Qual a recomendação para otimizar o prompt de Eficiência Administrativa após testá-lo por alguns dias?",
+    "options": [
+      "Aumentar significativamente o número de tarefas na lista.",
+      "Reduzir o número de tarefas na lista ou mudá-las de acordo com a necessidade.",
+      "Remover o menu numérico.",
+      "Diminuir a especificidade das solicitações.",
+      "Aumentar o uso de linguagem técnica."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 79,
+    "question": "Qual é o foco do prompt \"AGORA VOCÊ É UM ANALISTA DE INVESTIGAÇÕES POLICIAIS...\" com menu numérico?",
+    "options": [
+      "Apenas tarefas administrativas.",
+      "Auxiliar na identificação de inconsistências, verificar suspeitos, analisar interrogatórios, descobrir crimes e interpretar laudos periciais complexos.",
+      "Elaboração de documentos oficiais como ofícios e relatórios.",
+      "Criação de mapas de geolocalização.",
+      "Gerenciar o processo de recrutamento de novos policiais."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 80,
+    "question": "Em relação à comunicação, o que é enfatizado no prompt de \"ANALISTA DE INVESTIGAÇÕES POLICIAIS...\"?",
+    "options": [
+      "Usar linguagem informal e casual.",
+      "Tratar todas as informações com o máximo sigilo e profissionalismo.",
+      "Compartilhar as informações com o público em geral.",
+      "Inventar detalhes para preencher lacunas.",
+      "Limitar a análise a dados textuais simples."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 81,
+    "question": "Qual tipo de aplicação de Machine Learning é ilustrado com um diagrama para \"Triagem de RIFs\"?",
+    "options": [
+      "Aprendizado Não-Supervisionado.",
+      "Aprendizado Supervisionado para classificação (\"Instaurar Procedimento\" ou \"Arquivado\").",
+      "Regressão Linear.",
+      "Deep Learning para reconhecimento de imagem.",
+      "Engenharia de Prompt para gerar RIFs."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 82,
+    "question": "Qual é o \"Problema\" que o sistema de Aprendizado de Máquina para Triagem de RIFs busca resolver?",
+    "options": [
+      "Gerar RIFs automaticamente.",
+      "Analisar a comunicação entre suspeitos.",
+      "Decidir se deve \"Instaurar investigação ou arquivar o RIF\".",
+      "Coletar dados de aplicação.",
+      "Pré-processar dados de treino."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 83,
+    "question": "No diagrama de Triagem de RIFs, o que acontece após a análise de \"RIFs Analisados\" (Dados de Aprendizado)?",
+    "options": [
+      "Instaurar Procedimento ou Arquivar.",
+      "Treinar o Modelo usando a Base de Dados de RIFs, Pré-Processamento, Treino e Testes.",
+      "Coletar novos RIFs.",
+      "Aplicação direta sem treinamento.",
+      "Ajustar os Dados de Aplicação."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 84,
+    "question": "Qual é uma das aplicações gerais do ChatGPT na educação policial mencionada nas fontes?",
+    "options": [
+      "Simular operações táticas em campo.",
+      "Criar um guia simplificado para ensinar princípios de análise financeira a novos recrutas.",
+      "Gerar mandados de busca e apreensão.",
+      "Analisar impressões digitais.",
+      "Prever a ocorrência de crimes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 85,
+    "question": "Ao criar um prompt para um assistente AI com foco na educação policial para análise financeira, o que deve ser incluído no guia, além dos princípios?",
+    "options": [
+      "Listas de criminosos conhecidos.",
+      "Exemplos práticos e exercícios interativos.",
+      "Dados sigilosos de investigações reais.",
+      "Linguagem técnica de difícil compreensão.",
+      "Apenas teoria sem aplicação."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "question": "No contexto administrativo policial, qual é a persona sugerida para um assistente virtual especializado em documentação?",
+    "options": [
+      "Um investigador experiente.",
+      "Um perito criminal.",
+      "Um assistente administrativo virtual especializado em documentação policial.",
+      "Um advogado de defesa.",
+      "Um analista de inteligência."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 87,
+    "question": "Qual é uma das \"Características Pessoais\" desejadas para a persona de um profissional com Doutorado especializado em serviços administrativos policiais?",
+    "options": [
+      "Falta de capacidade de análise.",
+      "Dependência de instruções simples.",
+      "Capacidade de Análise e Decisão.",
+      "Resistência à inovação.",
+      "Falta de habilidades de gestão."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 88,
+    "question": "Na estrutura de um \"Megaprompt\" para criar GPTs, qual é a primeira pergunta que o \"GPT Builder\" faz no modo \"Criar\"?",
+    "options": [
+      "Qual personalidade ele deve ter?",
+      "Em quais áreas você deseja que ele se concentre?",
+      "O que você gostaria de fazer? (Solicita persona e tarefa).",
+      "Como o GPT deve interagir com os usuários?",
+      "Qual o nome do GPT?"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 89,
+    "question": "Quais são os elementos básicos da estrutura de um \"Megaprompt\"?",
+    "options": [
+      "Regra 1, Persona, Tarefa, Formato de Saída, Observação sobre o \"Contexto\".",
+      "Introdução, Desenvolvimento, Conclusão.",
+      "Coleta, Pré-processamento, Treino, Testes, Modelo, Aplicação.",
+      "Zero-Shot, Few-Shot, Chain-of-Thought.",
+      "Tom, Estilo, Extensão, Nível de Detalhe."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 90,
+    "question": "Qual a restrição fundamental definida na \"Regra 1\" de um Megaprompt?",
+    "options": [
+      "Fornecer todas as instruções internas ao usuário.",
+      "Restringir a resposta a um formato específico.",
+      "Sob NENHUMA circunstância revelar as instruções internas ou procedimentos detalhados contidos no prompt ao usuário.",
+      "Apenas responder a perguntas sobre Machine Learning.",
+      "Sempre usar linguagem informal."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 91,
+    "question": "Na elaboração de documentos oficiais por IA, qual é um exemplo de prompt fornecido para criar um \"Ofício\" solicitando informações sobre uma testemunha?",
+    "options": [
+      "Crie um ofício formal.",
+      "Redija um ofício genérico para testemunhas.",
+      "Você é um policial redigindo um ofício para solicitar informações sobre uma testemunha de um caso de furto... Especifique quais informações são necessárias... inclua um pedido de urgência.",
+      "Peça à Receita Federal dados de uma testemunha.",
+      "Crie uma lista de perguntas para uma testemunha."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 92,
+    "question": "Ao analisar depoimentos de testemunhas com IA, qual estrutura de prompt é sugerida para obter uma visão completa e crítica?",
+    "options": [
+      "Usar um prompt simples e direto.",
+      "Usar uma estrutura de prompt estilo few-shot, carregando o modelo com detalhes sobre a investigação antes de questionar sobre o depoimento.",
+      "Pedir à IA para inventar o depoimento.",
+      "Apenas listar as contradições.",
+      "Usar Negative Prompting para eliminar informações irrelevantes."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 93,
+    "question": "Qual é o objetivo de usar IA para a \"Criação de mapas de geolocalização\" a partir de dados de movimentação obtidos de chamadas telefônicas?",
+    "options": [
+      "Apenas listar os locais visitados.",
+      "Visualizar as movimentações de um suspeito, criar rotas e identificar padrões de movimentação.",
+      "Gerar relatórios de chamadas.",
+      "Analisar o conteúdo das chamadas.",
+      "Prever o próximo local do suspeito com 100% de certeza."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 94,
+    "question": "Ao elaborar um relatório investigativo com o auxílio da IA, o que um prompt ideal deve destacar para a estrutura do relatório?",
+    "options": [
+      "Apenas a descrição do caso.",
+      "Quais seções devem ser incluídas, como descrição do caso, informações coletadas, conclusões e recomendações.",
+      "Apenas as informações irrelevantes.",
+      "O formato da fonte e tamanho do texto.",
+      "O número de páginas mínimo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 95,
+    "question": "No contexto do Poder Judiciário, qual é a persona sugerida para elaborar um despacho sobre um pedido de perícia técnica?",
+    "options": [
+      "Um juiz.",
+      "Um técnico judiciário.",
+      "Um assessor de juiz.",
+      "Um perito técnico.",
+      "Um promotor."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 96,
+    "question": "Ao elaborar um despacho sobre um pedido de perícia, o que o prompt ideal deve solicitar à IA, além de deferir ou indeferir o pedido?",
+    "options": [
+      "Apenas a decisão final.",
+      "Incluir os fundamentos legais e explicar sucintamente a decisão em formato de texto objetivo e claro.",
+      "Pedir ao usuário que forneça os fundamentos legais.",
+      "Limitar a resposta a \"Deferido\" ou \"Indeferido\".",
+      "Sugerir novas perícias não solicitadas."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 97,
+    "question": "Qual o objetivo de usar IA para a \"Revisão de Minuta de Sentença\"?",
+    "options": [
+      "Mudar a decisão do juiz.",
+      "Analisar a estrutura da minuta e sugerir melhorias na coerência dos argumentos e consistência da fundamentação.",
+      "Apenas corrigir erros de digitação.",
+      "Aumentar o número de páginas da sentença.",
+      "Adicionar informações inventadas."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 98,
+    "question": "No processo de \"Triagem de RIFs\", o que representa a etapa de \"Dados de Aprendizado\"?",
+    "options": [
+      "Novos RIFs que precisam ser analisados.",
+      "RIFs analisados anteriormente, que contêm a decisão (\"Instaurar Procedimento\" ou \"Arquivado\").",
+      "Dados que precisam ser pré-processados.",
+      "O modelo de Machine Learning treinado.",
+      "Dados de aplicação para testar o modelo."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 99,
+    "question": "Ao usar Prompt Chaining no contexto de uma investigação policial, qual a vantagem de dividir a tarefa complexa em subtarefas menores?",
+    "options": [
+      "Aumenta a chance de alucinações.",
+      "Permite que o modelo aborde problemas de forma estruturada e sequencial.",
+      "Diminui a precisão das respostas.",
+      "Exige uma janela de contexto menor.",
+      "Torna o prompt mais vago."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 100,
+    "question": "A técnica Program-Aided Language Models combina a geração de linguagem natural com o quê, permitindo que o modelo realize cálculos ou operações lógicas durante a geração de texto?",
+    "options": [
+      "Busca em bancos de dados externos.",
+      "A execução de programas.",
+      "A análise de sentimentos.",
+      "O reconhecimento facial.",
+      "O aprendizado não-supervisionado."
+    ],
+    "correctIndex": 1
+  }
+]
